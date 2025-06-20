@@ -39,8 +39,8 @@
       }
 
       .carousel-indicators [data-bs-target] {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         background-color: black;
         border-radius: 50%;
         margin: 0 4px;
@@ -182,6 +182,75 @@
       </div>
     </div>
     <!-- image slide - end -->
+    <!-- footer - start -->
+    <div class="list-group fw-bold p-2" id="parent">
+      <div class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="text-uppercase">About The Mart</div>
+          <i
+            class="bi bi-plus fs-1"
+            data-bs-target="#about"
+            data-bs-toggle="collapse"
+          ></i>
+        </div>
+        <div class="collapse" id="about" data-bs-parent="#parent">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quasi
+          earum quisquam nobis, vero eligendi fuga cupiditate ratione, unde, est
+          omnis id quia quas molestiae mollitia quibusdam incidunt. Quod,
+          asperiores.
+        </div>
+      </div>
+      <div class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="text-uppercase">Useful links</div>
+          <i
+            class="bi bi-plus fs-1"
+            data-bs-target="#link"
+            data-bs-toggle="collapse"
+          ></i>
+        </div>
+        <div class="collapse" id="link" data-bs-parent="#parent">
+          <div class="navbar">
+            <div class="navbar-nav">
+              <div class="nav-item">
+                <a href="" class="nav-link">Collection</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Search</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Popular</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Promotion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="navbar navbar-expand fs-5 pb-4 ps-2 justify-content-center">
+        <div class="navbar-nav">
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="telephone:+959777910521" class="nav-link">
+              <i class="bi bi-telegram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer - end -->
     <script src="./assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
