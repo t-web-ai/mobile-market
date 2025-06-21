@@ -3,58 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MobiMart</title>
+    <title>Collection - MobiMart</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
     />
     <style>
-      input:focus,
-      textarea:focus,
-      select:focus {
-        outline: none !important;
-        box-shadow: none !important;
-        border-color: inherit !important;
-      }
-
-      .carousel-inner {
-        height: 50vh;
-      }
-      @media screen and (min-width: 576px) {
-        .carousel-inner {
-          height: 60vh;
-        }
-      }
-      .carousel-item {
+      .image {
         width: 100%;
-        height: 100%;
-        padding: 15px;
-        background-color: white;
+        height: 300px;
       }
-      .carousel-item > img {
+      .image > img {
         width: 100%;
         height: 100%;
         object-fit: contain;
       }
-
-      .carousel-indicators [data-bs-target] {
-        width: 10px;
-        height: 10px;
-        background-color: black;
-        border-radius: 50%;
-        margin: 0 4px;
-        opacity: 0.5;
-        transition: opacity 0.3s, background-color 0.3s;
-        border: none;
-      }
-      .carousel-indicators .active {
-        background-color: black;
-        opacity: 1;
-      }
     </style>
   </head>
   <body>
+    <!-- menu bar - start -->
     <div class="d-flex bg-light flex-column sticky-top">
       <div class="d-flex justify-content-between w-100">
         <div class="navbar navbar-expand-sm d-flex align-items-center">
@@ -145,43 +113,125 @@
         </div>
       </div>
     </div>
-    <!-- image slide - start -->
-    <div class="bg-dark text-white fs-3 p-2 px-4">Popular</div>
-    <div class="carousel slide" id="popular" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-r1.jpg"
-          />
+    <!-- menu bar - end -->
+    <!-- collection - start -->
+    <h3 class="text-center pt-3">All collections</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
+                  Xiaomi Devices
+                </div>
+                <div class="text-center my-4 image">
+                  <img
+                    src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-5g-gl-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <a
+                  href="/collection/item.html?name=Xiaomi"
+                  class="text-decoration-none"
+                >
+                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                    View
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg"
-          />
+        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
+                  Apple Devices
+                </div>
+                <div class="text-center my-4 image">
+                  <img
+                    src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-r1.jpg"
+                    alt=""
+                  />
+                </div>
+                <a
+                  href="/collection/item.html?name=Apple"
+                  class="text-decoration-none"
+                >
+                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                    View
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-3.jpg"
-          />
+        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
+                  Samsung Devices
+                </div>
+                <div class="text-center my-4 image">
+                  <img
+                    src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <a
+                  href="/collection/item.html?name=Samsung"
+                  class="text-decoration-none"
+                >
+                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                    View
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-5g-gl-1.jpg"
-          />
+        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
+                  One Plus Devices
+                </div>
+                <div class="text-center my-4 image">
+                  <img
+                    src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <a
+                  href="/collection/item.html?name=OnePlus"
+                  class="text-decoration-none"
+                >
+                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                    View
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="carousel-indicators position-relative p-2">
-        <button
-          data-bs-slide-to="0"
-          class="active"
-          data-bs-target="#popular"
-        ></button>
-        <button data-bs-slide-to="1" data-bs-target="#popular"></button>
-        <button data-bs-slide-to="2" data-bs-target="#popular"></button>
-        <button data-bs-slide-to="3" data-bs-target="#popular"></button>
+        <div class="p-2 col-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <div class="text-center my-4 image">
+                  <img src="./assets/img/mobimart/mobimart.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- image slide - end -->
+    <!-- collection - end -->
     <!-- footer - start -->
     <div class="list-group fw-bold p-2" id="parent">
       <div class="list-group-item">
