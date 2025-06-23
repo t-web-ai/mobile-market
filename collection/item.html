@@ -248,16 +248,21 @@
                               alt=""
                             />
                           </div>
-                          <a
-                            href="/collection/details.html?name=${searchQuery.get(
-                              "name"
-                            )}&model-id=${item.id}"
-                            class="text-decoration-none text-black"
-                          >
-                            <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
-                              Details
+                          <div class="row pe-3">
+                            <a
+                              href="/collection/details.html?name=${searchQuery.get(
+                                "name"
+                              )}&model-id=${item.id}"
+                              class="text-decoration-none text-black col-8"
+                            >
+                              <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                                Details
+                              </div>
+                            </a>
+                            <div class="col-4 bg-dark text-center rounded text-white d-flex justify-content-center align-items-center">
+                              <i class="bi bi-cart3 fs-3"></i>
                             </div>
-                          </a>
+                          </div>
                         </div>
                       </div>
                     </div>
