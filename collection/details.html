@@ -78,7 +78,9 @@
           >
             <i class="bi bi-list"></i>
           </div>
-          <div class="p-2 fs-5 text-nowrap">MobiMart</div>
+          <div class="p-2 fs-5 text-nowrap">
+            <a href="/" class="text-decoration-none text-black">MobiMart</a>
+          </div>
         </div>
         <div class="input-group d-none d-sm-flex p-2 px-3 align-items-center">
           <input type="text" class="form-control w-50 fs-5" />
@@ -162,9 +164,9 @@
     <!-- body - start -->
     <div class="container-fluid">
       <div id="404" class="py-2" style="display: none">
-        <div class="card text-center p-2 fs-5 fw-bold">404 Not Found!</div>
+        <div class="card text-center p-5 fs-5 fw-bold">404 Not Found!</div>
       </div>
-      <div class="row py-2 flex" id="main">
+      <div class="row py-2 flex" id="main" style="display: none">
         <div
           class="carousel slide col-12 col-md-6 flex"
           data-bs-ride="carousel"
@@ -294,9 +296,9 @@
                 });
                 if (!item) {
                   $("#404").show();
-                  $("#main").hide();
                   return;
                 }
+                $("#main").show();
                 $("title").text("Details : " + item.model);
                 Object.keys(item.specifications).map((index) => {
                   $(".specifications>table>tbody").append(`
@@ -308,10 +310,10 @@
                 });
                 item.image.view.map((img, index) => {
                   $(".carousel-inner").append(`
-                <div class="carousel-item ${index == 0 ? "active" : ""}">
-                  <img src="${img}" />
-                </div>
-                `);
+                  <div class="carousel-item ${index == 0 ? "active" : ""}">
+                    <img src="${img}" />
+                  </div>
+                  `);
                   $(".carousel-indicators").append(`
                 <img 
                   data-bs-target="#item" 
@@ -320,12 +322,14 @@
                     index == 0 ? "active" : ""
                   } flex-grow-1 flex-shrink-0 my-2" 
                   src="${img}" 
-                  style="height: 60px;object-fit: cover; cursor: pointer;"
+                  style="height: 60px;object-fit: contain; cursor: pointer;"
                 />
                 `);
                 });
               }
-            );
+            ).fail(function () {
+              $("#404").show();
+            });
           });
         }
       });
