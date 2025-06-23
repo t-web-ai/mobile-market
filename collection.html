@@ -117,114 +117,14 @@
     <!-- collection - start -->
     <h3 class="text-center pt-3">All collections</h3>
     <div class="container-fluid">
-      <div class="row">
-        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
-                  Xiaomi Devices
-                </div>
-                <div class="text-center my-4 image">
-                  <img
-                    src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-5g-gl-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <a
-                  href="/collection/item.html?name=Xiaomi"
-                  class="text-decoration-none"
-                >
-                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
-                    View
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
-                  Apple Devices
-                </div>
-                <div class="text-center my-4 image">
-                  <img
-                    src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-r1.jpg"
-                    alt=""
-                  />
-                </div>
-                <a
-                  href="/collection/item.html?name=Apple"
-                  class="text-decoration-none"
-                >
-                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
-                    View
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
-                  Samsung Devices
-                </div>
-                <div class="text-center my-4 image">
-                  <img
-                    src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <a
-                  href="/collection/item.html?name=Samsung"
-                  class="text-decoration-none"
-                >
-                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
-                    View
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
-                  One Plus Devices
-                </div>
-                <div class="text-center my-4 image">
-                  <img
-                    src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-3.jpg"
-                    alt=""
-                  />
-                </div>
-                <a
-                  href="/collection/item.html?name=OnePlus"
-                  class="text-decoration-none"
-                >
-                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
-                    View
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 col-12">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">
-                <div class="text-center my-4 image">
-                  <img src="./assets/img/mobimart/mobimart.png" alt="" />
-                </div>
+      <div>
+        <div id="item" class="row">
+          <div class="col-12 p-2">
+            <div class="card py-5">
+              <div class="card-body">
+                <h2 class="text-center">
+                  <div class="spinner-border"></div>
+                </h2>
               </div>
             </div>
           </div>
@@ -304,5 +204,46 @@
     </div>
     <!-- footer - end -->
     <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        setTimeout(function () {
+          $.get("/collection/item.json", (items) => {
+            $("#item").html("");
+            items.map((item) => {
+              $("#item").append(`
+              <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-title">
+                      <div class="fs-5 fw-bold bg-light rounded p-2 text-center">
+                        ${item.brand} Devices
+                      </div>
+                      <div class="text-center my-4 image">
+                        <img
+                          src="${item.image}"
+                          alt=""
+                        />
+                      </div>
+                      <a
+                        href="/collection/item.html?name=${item.name}"
+                        class="text-decoration-none"
+                      >
+                        <div
+                          class="bg-warning fs-5 text-center rounded p-2 fw-bold"
+                        >
+                          View
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              `);
+            });
+          });
+        }, 1000);
+      });
+    </script>
   </body>
 </html>

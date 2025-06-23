@@ -1,18 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Xiaomi"
+    "name": "Xiaomi",
+    "brand": "Xiaomi",
+    "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-5g-gl-1.jpg"
   },
   {
     "id": 2,
-    "name": "Apple"
+    "name": "Apple",
+    "brand": "Apple",
+    "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-r1.jpg"
   },
   {
     "id": 3,
-    "name": "Samsung"
+    "name": "Samsung",
+    "brand": "Samsung",
+    "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg"
   },
   {
     "id": 4,
-    "name": "OnePlus"
+    "name": "OnePlus",
+    "brand": "One Plus",
+    "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-3.jpg"
   }
 ]
