@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "model": "Samsung Galaxy A56",
+    "specifications": {
+      "Model": "Samsung Galaxy A56",
+      "Display Type": "Super AMOLED, 120Hz, HDR10+, 1200 nits (HBM), 1900 nits (peak)",
+      "Os": "Android 15, up to 6 major Android upgrades, One UI 7",
+      "Chipset": "Exynos 1580 (4 nm)",
+      "USB": "USB Type-C 2.0, OTG",
+      "Battery" : "5000 mAh",
+      "Charging": "45W wired, 65% in 30 min, 100% in 68 min",
+      "Colors": "Pink, Olive, Graphite, Lightgray"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a56-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a56-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-a56/lifestyle/-1024w2/gsmarena_005.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-a56/lifestyle/-1024w2/gsmarena_015.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-a56/lifestyle/-1024w2/gsmarena_019.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "model": "Samsung Galaxy S23 FE",
+    "specifications": {
+      "Model": "Samsung Galaxy S23 FE",
+      "Display Type": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1450 nits (peak)",
+      "Os": "Android 13, up to 4 major Android upgrades, One UI 6.1",
+      "Chipset": "Exynos 2200 (4 nm) - International",
+      "USB": "USB Type-C, OTG",
+      "Battery" : "Li-Ion 4500 mAh",
+      "Charging": "25W wired, PD3.0, 50% in 30 min",
+      "Colors": "Mint, Cream, Graphite, Purple, Indigo, Tangerine"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-2.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-3.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/23/samsung-galaxy-s23-fe/lifestyle/-1024w2/gsmarena_004.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/23/samsung-galaxy-s23-fe/lifestyle/-1024w2/gsmarena_015.jpg"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "model": "Samsung Galaxy S25 Edge",
+    "specifications": {
+      "Model": "Samsung Galaxy S25 Edge",
+      "Display Type": "LTPO AMOLED 2X, 120Hz, 480Hz PWM, HDR10+",
+      "Os": "Android 15, One UI 7",
+      "Chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "USB": "USB Type-C 3.2",
+      "Battery" : "Li-Ion 3900 mAh",
+      "Charging": "25W wired, PD, QC2.0, 55% in 30 min",
+      "Colors": "Titanium Icyblue, Titanium Silver, Titanium Jetblack"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-edge-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-edge-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-edge/lifestyle/-1024w2/gsmarena_002.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-edge/lifestyle/-1024w2/gsmarena_003.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-edge/lifestyle/-1024w2/gsmarena_021.jpg"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "model": "Samsung Galaxy S25 Ultra",
+    "specifications": {
+      "Model": "Samsung Galaxy S25 Ultra",
+      "Display Type": "Dynamic LTPO AMOLED 2X, 120Hz, 480Hz PWM, HDR10+, 2600 nits (peak)",
+      "Os": "Android 15, up to 7 major Android upgrades, One UI 7",
+      "Chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "USB": "USB Type-C 3.2, DisplayPort 1.2, OTG",
+      "Battery" : "Li-Ion 5000 mAh",
+      "Charging": "45W wired, PD3.0, 65% in 30 min",
+      "Colors": "Titanium Silver Blue, Titanium Black, Titanium White Silver, Titanium Gray, Titanium Jade Green, Titanium Jet Black, Titanium Pink Gold"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-2.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-3.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-ultra/lifestyle/-1024w2/gsmarena_003.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-ultra/lifestyle/-1024w2/gsmarena_004.jpg"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "model": "Samsung Galaxy A35",
+    "specifications": {
+      "Model": "Samsung Galaxy A35",
+      "Display Type": "Super AMOLED, 120Hz, 1000 nits (HBM)",
+      "Os": "Android 14, up to 4 major Android upgrades, One UI 7",
+      "Chipset": "Exynos 1380 (5 nm)",
+      "USB": "USB Type-C 2.0, OTG",
+      "Battery" : "Li-Ion 5000 mAh",
+      "Charging": "25W wired",
+      "Colors": "Iceblue, Lilac, Navy, Lemon"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a35-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a35-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-a35/lifestyle/-1024w2/gsmarena_001.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-a35/lifestyle/-1024w2/gsmarena_003.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-a35/lifestyle/-1024w2/gsmarena_005.jpg"
+      ]
+    }
+  }
+]

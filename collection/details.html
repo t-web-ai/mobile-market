@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <style>
+      .carousel-indicators {
+        position: relative;
+        margin: 0;
+      }
+      .specifications td:nth-child(odd) {
+        white-space: nowrap;
+      }
+      .specifications td:nth-child(even) {
+        word-break: break-word;
+      }
+
+      .carousel-inner {
+        height: 50vh;
+        padding: 3px;
+      }
+      @media screen and (min-width: 576px) {
+        .carousel-inner {
+          height: 60vh;
+        }
+      }
+      .carousel-item {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        box-shadow: 0px 0px 4px gray;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      .carousel-item > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: white;
+        border-radius: 5px;
+      }
+      button[data-bs-slide] {
+        margin: 0 18px;
+        margin-bottom: 100px;
+        margin-top: 5px;
+        opacity: 1;
+      }
+      button[data-bs-slide] > div {
+        background-color: rgba(0, 0, 0, 0.111);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        backdrop-filter: blur(7px);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- menu bar - start -->
+    <div class="d-flex bg-light flex-column sticky-top">
+      <div class="d-flex justify-content-between w-100">
+        <div class="navbar navbar-expand-sm d-flex align-items-center">
+          <div
+            class="navbar-toggler mx-2 p-2 fs-5"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <i class="bi bi-list"></i>
+          </div>
+          <div class="p-2 fs-5 text-nowrap">MobiMart</div>
+        </div>
+        <div class="input-group d-none d-sm-flex p-2 px-3 align-items-center">
+          <input type="text" class="form-control w-50 fs-5" />
+          <select name="" id="" class="form-select d-none d-md-block w-25 fs-5">
+            <option value="">Apple</option>
+            <option value="">Xiaomi</option>
+            <option value="">Samsung</option>
+            <option value="">One Plus</option>
+          </select>
+          <div class="btn btn-warning fs-5 w-25">Search</div>
+        </div>
+        <div class="d-flex align-items-center navbar navbar-expand">
+          <div class="p-2 fs-5 navbar-brand">
+            <i class="bi bi-bag"></i>
+          </div>
+          <div class="p-2 fs-5 navbar-brand">
+            <i class="bi bi-box-arrow-in-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center d-sm-none">
+        <div class="input-group w-100 px-2">
+          <input type="text" class="form-control" />
+          <div class="btn btn-warning fs-5">Search</div>
+        </div>
+      </div>
+      <div class="navbar navbar-expand-sm">
+        <div class="collapse navbar-collapse ps-4" id="menu">
+          <ul class="navbar-nav flex-wrap column-gap-3">
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                Xiaomi
+              </div>
+              <div class="dropdown-menu fs-5 dropdown">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Flagship</div>
+                <div class="dropdown-item">Mid-Range</div>
+                <div class="dropdown-item">Budget</div>
+                <div class="dropdown-item">Note Series</div>
+                <div class="dropdown-item">Price to performance</div>
+              </div>
+            </li>
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle fs-5" data-bs-toggle="dropdown">
+                Apple
+              </div>
+              <div class="dropdown-menu fs-5">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Pink</div>
+                <div class="dropdown-item">Green</div>
+                <div class="dropdown-item">Black</div>
+              </div>
+            </li>
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                Samsung
+              </div>
+              <div class="dropdown-menu fs-5">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Flagship</div>
+                <div class="dropdown-item">Mid-Range</div>
+                <div class="dropdown-item">Budget</div>
+              </div>
+            </li>
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                One Plus
+              </div>
+              <div class="dropdown-menu fs-5">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Flagship</div>
+                <div class="dropdown-item">Mid-Range</div>
+                <div class="dropdown-item">Budget</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- menu bar - end -->
+    <!-- body - start -->
+    <div class="container-fluid p-2">
+      <div id="404" class="py-2" style="display: none">
+        <div class="card text-center p-2 fs-5 fw-bold">404 Not Found!</div>
+      </div>
+      <div class="row py-2 flex" id="main">
+        <div
+          class="carousel slide col-12 col-md-6 flex"
+          data-bs-ride="carousel"
+          id="item"
+        >
+          <div class="carousel-inner"></div>
+          <div class="carousel-indicators"></div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#item"
+            data-bs-slide="prev"
+          >
+            <div>
+              <span class="carousel-control-prev-icon"></span>
+            </div>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#item"
+            data-bs-slide="next"
+          >
+            <div>
+              <span class="carousel-control-next-icon"></span>
+            </div>
+          </button>
+        </div>
+        <div class="specifications col-12 col-md-6 px-3 pt-1">
+          <table class="fs-5 table table-bordered table-striped">
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="/assets/img/mobimart/mobimart.png" alt="" width="250" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- body - end -->
+    <!-- footer - start -->
+    <div class="list-group fw-bold p-2" id="parent">
+      <div class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="text-uppercase">About The Mart</div>
+          <i
+            class="bi bi-plus fs-1"
+            data-bs-target="#about"
+            data-bs-toggle="collapse"
+          ></i>
+        </div>
+        <div class="collapse" id="about" data-bs-parent="#parent">
+          <div style="text-align: justify">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            quasi earum quisquam nobis, vero eligendi fuga cupiditate ratione,
+            unde, est omnis id quia quas molestiae mollitia quibusdam incidunt.
+            Quod, asperiores.
+          </div>
+        </div>
+      </div>
+      <div class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="text-uppercase">Useful links</div>
+          <i
+            class="bi bi-plus fs-1"
+            data-bs-target="#link"
+            data-bs-toggle="collapse"
+          ></i>
+        </div>
+        <div class="collapse" id="link" data-bs-parent="#parent">
+          <div class="navbar">
+            <div class="navbar-nav">
+              <div class="nav-item">
+                <a href="/collection.html" class="nav-link">Collection</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Search</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Popular</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Promotion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="navbar navbar-expand fs-5 pb-4 ps-2 justify-content-center">
+        <div class="navbar-nav">
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-telegram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer - end -->
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        const searchQuery = new URLSearchParams(window.location.search);
+        if (searchQuery.size) {
+          setTimeout(function () {
+            $.get(
+              `/collection/item/${searchQuery.get("name")}.json`,
+              function (items) {
+                const item = items.find((items) => {
+                  return items.id == searchQuery.get("model-id");
+                });
+                if (!item) {
+                  $("#404").show();
+                  $("#main").hide();
+                  return;
+                }
+                $("title").text("Details : " + item.model);
+                Object.keys(item.specifications).map((index) => {
+                  $(".specifications>table>tbody").append(`
+                <tr>
+                  <td>${index}</td>
+                  <td>${item.specifications[index]}</td>
+                </tr>
+                `);
+                });
+                item.image.view.map((img, index) => {
+                  $(".carousel-inner").append(`
+                <div class="carousel-item ${index == 0 ? "active" : ""}">
+                  <img src="${img}" />
+                </div>
+                `);
+                  $(".carousel-indicators").append(`
+                <img 
+                  data-bs-target="#item" 
+                  data-bs-slide-to="${index}" 
+                  class="${
+                    index == 0 ? "active" : ""
+                  } flex-grow-1 flex-shrink-0 my-2" 
+                  src="${img}" 
+                  style="height: 60px;object-fit: cover; cursor: pointer;"
+                />
+                `);
+                });
+              }
+            );
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

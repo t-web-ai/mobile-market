@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "model": "Apple iPhone 16 Pro",
+    "specifications": {
+      "Model": "Apple iPhone 16 Pro",
+      "Display Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "Os": "iOS 18, upgradable to iOS 18.5",
+      "Chipset": "Apple A18 Pro (3 nm)",
+      "USB": "USB Type-C 3.2 Gen 2, DisplayPort",
+      "Battery" : "Li-Ion 3582 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min",
+      "Colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16-pro/lifestyle/-1024w2/gsmarena_003.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16-pro/lifestyle/-1024w2/gsmarena_004.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16-pro/lifestyle/-1024w2/gsmarena_005.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "model": "Apple iPhone 16 Pro Max",
+    "specifications": {
+      "Model": "Apple iPhone 16 Pro Max",
+      "Display Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "Os": "iOS 18, upgradable to iOS 18.5",
+      "Chipset": "Apple A18 Pro (3 nm)",
+      "USB": "USB Type-C 3.2 Gen 2, DisplayPort",
+      "Battery" : "Li-Ion 4685 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min",
+      "Colors": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-2.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-3.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16-pro/lifestyle/-1024w2/gsmarena_001.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16-pro/lifestyle/-1024w2/gsmarena_006.jpg"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "model": "Apple iPhone 13",
+    "specifications": {
+      "Model": "Apple iPhone 13",
+      "Display Type": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)",
+      "Os": "iOS 15, upgradable to iOS 18.5",
+      "Chipset": "Apple A15 Bionic (5 nm)",
+      "USB": "Lightning, USB 2.0",
+      "Battery" : "Li-Ion 3240 mAh (12.41 Wh)",
+      "Charging": "Wired, PD2.0, 50% in 30 min",
+      "Colors": "Starlight, Midnight, Blue, Pink, Red, Green"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-5.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-3.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/21/apple-iphone-13/lifestyle/-1024w2/gsmarena_004.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/21/apple-iphone-13/lifestyle/-1024w2/gsmarena_005.jpg"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "model": "Apple iPhone 16e",
+    "specifications": {
+      "Model": "Apple iPhone 16e",
+      "Display Type": "Super Retina XDR OLED, HDR10, 800 nits (HBM), 1200 nits (peak)",
+      "Os": "iOS 18.3.1, upgradable to iOS 18.5",
+      "Chipset": "Apple A18 (3 nm)",
+      "USB": "USB Type-C 2.0",
+      "Battery" : "Li-Ion 4005 mAh",
+      "Charging": "Wired, 50% in 30 min",
+      "Colors": "Black, White"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16e-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16e-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/apple-iphone-16e/lifestyle/-1024w2/gsmarena_004.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16e-4.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/apple-iphone-16e/lifestyle/-1024w2/gsmarena_003.jpg"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "model": "Apple iPhone 16",
+    "specifications": {
+      "Model": "",
+      "Display Type": "Super Retina XDR OLED, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)",
+      "Os": "iOS 18, upgradable to iOS 18.5",
+      "Chipset": "Apple A18 (3 nm)",
+      "USB": "USB Type-C 2.0, DisplayPort",
+      "Battery" : "Li-Ion 3561 mAh",
+      "Charging": "Wired, PD2.0, 50% in 30 min",
+      "Colors": "Black, White, Pink, Teal, Ultramarine"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16/lifestyle/-1024w2/gsmarena_001.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16/lifestyle/-1024w2/gsmarena_002.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/apple-iphone-16/lifestyle/-1024w2/gsmarena_006.jpg"
+      ]
+    }
+  }
+]

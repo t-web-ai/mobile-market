@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "model": "OnePlus 13",
+    "specifications": {
+      "Model": "OnePlus 13",
+      "Display Type": "LTPO 4.1 AMOLED, 1B colors, 120Hz, 2160Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 800 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+      "Os": "Android 15, up to 4 major Android upgrades, OxygenOS 15 (International), ColorOS 15 (China)",
+      "Chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "USB": "USB Type-C 3.2, OTG",
+      "Battery" : "Si/C Li-Ion 6000 mAh",
+      "Charging": "100W wired, PD, QC, 50% in 13 min, 100% in 36 min",
+      "Colors": "Black Eclipse, Arctic Dawn, Midnight Ocean"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-2.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-3.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/oneplus-13/rev07/lifestyle/-1024w2/gsmarena_001.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/oneplus-13/rev07/lifestyle/-1024w2/gsmarena_005.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "model": "OnePlus 3T",
+    "specifications": {
+      "Model": "OnePlus 3T",
+      "Display Type": "Optic AMOLED",
+      "Os": "Android 6.0.1 (Marshmallow), upgradable to Android 9.0 (Pie)",
+      "Chipset": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+      "USB": "USB Type-C 2.0",
+      "Battery" : "Li-Ion 3400 mAh, non-removable",
+      "Charging": "20W wired",
+      "Colors": "Gunmetal, Soft Gold, Midnight Black"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-3.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-midnight-black.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3-soft-gold.jpg",
+        "https://fdn.gsmarena.com/imgroot//reviews/16/oneplus-3t/gal/-1024x768w1/gsmarena_005.jpg",
+        "https://fdn.gsmarena.com/imgroot//reviews/16/oneplus-3t/gal/-1024x768w1/gsmarena_010.jpg"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "model": "OnePlus 13T",
+    "specifications": {
+      "Model": "OnePlus 13T",
+      "Display Type": "LTPO AMOLED, 1B colors, 120Hz, 2160Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 1600 nits (HBM)",
+      "Os": "Android 15, OxygenOS 15 (International), ColorOS 15 (China)",
+      "Chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "USB": "USB Type-C 2.0, OTG",
+      "Battery" : "Si/C Li-Ion 6260 mAh",
+      "Charging": "80W wired, 33W PPS, 18W PD, 18W QC",
+      "Colors": "Black, Gray, Pink"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13t-4.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13t-5.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13t-4.jpg",
+        "https://cdn1.smartprix.com/rx-i77dPhRti-w1200-h1200/oneplus-13t.webp",
+        "https://cdn1.smartprix.com/rx-ik5U007vl-w1200-h1200/oneplus-13t.webp"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "model": "OnePlus 10T",
+    "specifications": {
+      "Model": "OnePlus 10T",
+      "Display Type": "Fluid AMOLED, 1B colors, 120Hz, HDR10+",
+      "Os": "Android 12, OxygenOS 13",
+      "Chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+      "USB": "USB Type-C 2.0",
+      "Battery" : "Li-Po 4800 mAh",
+      "Charging": "150W wired (125W for 110V sockets)",
+      "Colors": "Moonstone Black, Jade Green"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10t-5g-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10t-5g-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/22/oneplus-10t/lifestyle/-1024w2/gsmarena_002.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/22/oneplus-10t/lifestyle/-1024w2/gsmarena_005.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/22/oneplus-10t/lifestyle/-1024w2/gsmarena_012.jpg"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "model": "OnePlus Nord 4",
+    "specifications": {
+      "Model": "OnePlus Nord 4",
+      "Display Type": "Fluid AMOLED, 1B colors, 120Hz, HDR10+, 2150 nits (peak)",
+      "Os": "Android 14, up to 4 major Android upgrades, OxygenOS 15",
+      "Chipset": "Qualcomm SM7675 Snapdragon 7+ Gen 3 (4 nm)",
+      "USB": "USB Type-C 2.0",
+      "Battery" : "5500 mAh",
+      "Charging": "100W wired, PPS, 100% in 28 min",
+      "Colors": "Obsidian Midnight, Mercurial Silver, Oasis Green"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord4-1.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord4-2.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord4-3.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/oneplus-nord-4/lifestyle/-1024w2/gsmarena_003.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/24/oneplus-nord-4/lifestyle/-1024w2/gsmarena_004.jpg"
+      ]
+    }
+  }
+]

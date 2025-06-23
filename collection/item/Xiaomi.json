@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "model": "Redmi Note 14 4G",
+    "specifications": {
+      "Model": "Redmi Note 14 4G",
+      "Display Type": "AMOLED, 120Hz, 960Hz PWM, 1200 nits (HBM), 1800 nits (peak)",
+      "Os": "Android 14, up to 4 major Android upgrades, HyperOS",
+      "Chipset": "Mediatek Helio G99 Ultra (6 nm)",
+      "USB": "USB Type-C 2.0, OTG",
+      "Battery" : "5500 mAh",
+      "Charging": "33W wired, 55% in 44 min",
+      "Colors": "Midnight Black, Mist Purple, Ocean Blue, Lime Green"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-4g-gl-1.jpg",
+      "view": [
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_002.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_007.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_008.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_018.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "model": "Redmi Note 14 Pro 4G",
+    "specifications": {
+      "Model": "Redmi Note 14 Pro 5G",
+      "Display Type": "AMOLED, 1B colors, 120Hz, 1920Hz PWM, 1200 nits (HBM), 1800 nits (peak)",
+      "Os": "Android 14, HyperOS",
+      "Chipset": "Mediatek Helio G100 Ultra (6 nm)",
+      "USB": "USB Type-C 2.0, OTG",
+      "Battery" : "5500 mAh",
+      "Charging": "45W wired",
+      "Colors": "Midnight Black, Aurora Purple, Ocean Blue"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-4g-gl-1.jpg",
+      "view": [
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_005.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_006.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_007.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_016.jpg"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "model": "Redmi Note 10 5G",
+    "specifications": {
+      "Model": "Redmi Note 10 5G",
+      "Display Type": "IPS LCD, 90Hz, 400 nits (typ), 500 nits (HBM)",
+      "Os": "Android 11, MIUI 12",
+      "Chipset": "Mediatek Dimensity 700 (7 nm)",
+      "USB": "USB Type-C 2.0",
+      "Battery" : "Li-Po 5000 mAh",
+      "Charging": "18W wired",
+      "Colors": "Chrome Silver, Graphite Gray, Nighttime Blue, Aurora Green"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note10-5g-0.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note10-5g-2.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/21/xiaomi-redmi-note-10-5g/lifestyle/-1024w2/gsmarena_001.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/21/xiaomi-redmi-note-10-5g/lifestyle/-1024w2/gsmarena_002.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/21/xiaomi-redmi-note-10-5g/lifestyle/-1024w2/gsmarena_007.jpg"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "model": "Mi A2 Lite",
+    "specifications": {
+      "Model": "Mi A2 Lite",
+      "Display Type": "IPS LCD",
+      "Os": "Android 8.1 (Oreo), upgradable to Android 10, MIUI 12, Android One",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "USB": "microUSB 2.0",
+      "Battery" : "Li-Po 4000 mAh, non-removable",
+      "Charging": "10W wired",
+      "Colors": "Black, Blue, Gold, Rose Gold, Red"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-a2-lite-1.jpg",
+      "view": [
+        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_001.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_015.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_013.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_011.jpg"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "model": "Xiaomi Redmi Note 8 Pro",
+    "specifications": {
+      "Model": "Xiaomi Redmi Note 8 Pro",
+      "Display Type": "IPS LCD, HDR, 500 nits (typ)",
+      "Os": "Android 9.0 (Pie), upgradable to Android 11, MIUI 12.5",
+      "Chipset": "Mediatek MT6785V/CC Helio G90T (12 nm)",
+      "USB": "USB Type-C 2.0",
+      "Battery" : "Li-Po 4500 mAh, non-removable",
+      "Charging": "18W wired",
+      "Colors": "Black, Red, Blue, White, Deep Sea Blue, Midnight Blue, Electric Blue, Twilight Orange"
+    },
+    "image": {
+      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-2.jpg",
+      "view": [
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-01.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-1.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-twilight-orange.jpg",
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-0.jpg"
+      ]
+    }
+  }
+]

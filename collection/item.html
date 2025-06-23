@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <style>
+      .image {
+        width: 100%;
+        height: 300px;
+      }
+      .image > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- menu bar - start -->
+    <div class="d-flex bg-light flex-column sticky-top">
+      <div class="d-flex justify-content-between w-100">
+        <div class="navbar navbar-expand-sm d-flex align-items-center">
+          <div
+            class="navbar-toggler mx-2 p-2 fs-5"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <i class="bi bi-list"></i>
+          </div>
+          <div class="p-2 fs-5 text-nowrap">MobiMart</div>
+        </div>
+        <div class="input-group d-none d-sm-flex p-2 px-3 align-items-center">
+          <input type="text" class="form-control w-50 fs-5" />
+          <select name="" id="" class="form-select d-none d-md-block w-25 fs-5">
+            <option value="">Apple</option>
+            <option value="">Xiaomi</option>
+            <option value="">Samsung</option>
+            <option value="">One Plus</option>
+          </select>
+          <div class="btn btn-warning fs-5 w-25">Search</div>
+        </div>
+        <div class="d-flex align-items-center navbar navbar-expand">
+          <div class="p-2 fs-5 navbar-brand">
+            <i class="bi bi-bag"></i>
+          </div>
+          <div class="p-2 fs-5 navbar-brand">
+            <i class="bi bi-box-arrow-in-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center d-sm-none">
+        <div class="input-group w-100 px-2">
+          <input type="text" class="form-control" />
+          <div class="btn btn-warning fs-5">Search</div>
+        </div>
+      </div>
+      <div class="navbar navbar-expand-sm">
+        <div class="collapse navbar-collapse ps-4" id="menu">
+          <ul class="navbar-nav flex-wrap column-gap-3">
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                Xiaomi
+              </div>
+              <div class="dropdown-menu fs-5 dropdown">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Flagship</div>
+                <div class="dropdown-item">Mid-Range</div>
+                <div class="dropdown-item">Budget</div>
+                <div class="dropdown-item">Note Series</div>
+                <div class="dropdown-item">Price to performance</div>
+              </div>
+            </li>
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle fs-5" data-bs-toggle="dropdown">
+                Apple
+              </div>
+              <div class="dropdown-menu fs-5">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Pink</div>
+                <div class="dropdown-item">Green</div>
+                <div class="dropdown-item">Black</div>
+              </div>
+            </li>
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                Samsung
+              </div>
+              <div class="dropdown-menu fs-5">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Flagship</div>
+                <div class="dropdown-item">Mid-Range</div>
+                <div class="dropdown-item">Budget</div>
+              </div>
+            </li>
+            <li class="nav-item p-2 fs-5 dropdown">
+              <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                One Plus
+              </div>
+              <div class="dropdown-menu fs-5">
+                <div class="dropdown-item">Latest</div>
+                <div class="dropdown-item">Flagship</div>
+                <div class="dropdown-item">Mid-Range</div>
+                <div class="dropdown-item">Budget</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- menu bar - end -->
+
+    <!-- items - start -->
+    <div class="container-fluid">
+      <div class="row" id="item">
+        <div class="col-12 p-2">
+          <div class="card py-5">
+            <div class="card-body">
+              <h2 class="text-center">
+                <div class="spinner-border"></div>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- items - end -->
+
+    <!-- footer - start -->
+    <div class="list-group fw-bold p-2" id="parent">
+      <div class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="text-uppercase">About The Mart</div>
+          <i
+            class="bi bi-plus fs-1"
+            data-bs-target="#about"
+            data-bs-toggle="collapse"
+          ></i>
+        </div>
+        <div class="collapse" id="about" data-bs-parent="#parent">
+          <div style="text-align: justify">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            quasi earum quisquam nobis, vero eligendi fuga cupiditate ratione,
+            unde, est omnis id quia quas molestiae mollitia quibusdam incidunt.
+            Quod, asperiores.
+          </div>
+        </div>
+      </div>
+      <div class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="text-uppercase">Useful links</div>
+          <i
+            class="bi bi-plus fs-1"
+            data-bs-target="#link"
+            data-bs-toggle="collapse"
+          ></i>
+        </div>
+        <div class="collapse" id="link" data-bs-parent="#parent">
+          <div class="navbar">
+            <div class="navbar-nav">
+              <div class="nav-item">
+                <a href="/collection.html" class="nav-link">Collection</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Search</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Popular</a>
+              </div>
+              <div class="nav-item">
+                <a href="" class="nav-link">Promotion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="navbar navbar-expand fs-5 pb-4 ps-2 justify-content-center">
+        <div class="navbar-nav">
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link">
+              <i class="bi bi-telegram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer - end -->
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        const searchQuery = new URLSearchParams(window.location.search);
+        setTimeout(function () {
+          $.get("/collection/item.json", function (items) {
+            const item = items.find((item) => {
+              return item.name == searchQuery.get("name");
+            });
+            $("title").text(searchQuery.get("name"));
+            $("#item").html("");
+            if (!item) {
+              $("#item").append(`
+              <div class="col-12 p-2">
+                <div class="card py-5">
+                  <div class="card-body">
+                    <h2 class="text-center">
+                      No Items!
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              `);
+              return;
+            }
+            $.get(
+              `/collection/item/${searchQuery.get("name")}.json`,
+              (items) => {
+                items.map((item) => {
+                  $("#item").append(`
+                  <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="card">
+                      <div class="card-body">
+                        <div class="card-title ">
+                          <div class="fs-5 fw-bold bg-light rounded p-2 text-center text-truncate ">
+                            ${item.model}
+                          </div>
+                          <div class="text-center my-4 image">
+                            <img
+                              src="${item.image.main}"
+                              alt=""
+                            />
+                          </div>
+                          <a
+                            href="/collection/details.html?name=${searchQuery.get(
+                              "name"
+                            )}&model-id=${item.id}"
+                            class="text-decoration-none"
+                          >
+                            <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                              Details
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  `);
+                });
+              }
+            );
+          });
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
