@@ -69,7 +69,7 @@
   <body>
     <!-- menu bar - start -->
     <div class="d-flex bg-light flex-column sticky-top">
-      <div class="d-flex justify-content-between w-100">
+      <div class="d-flex justify-content-between w-100 mt-3">
         <div class="navbar navbar-expand-sm d-flex align-items-center">
           <div
             class="navbar-toggler mx-2 p-2 fs-5"
@@ -78,20 +78,29 @@
           >
             <i class="bi bi-list"></i>
           </div>
-          <div class="p-2 fs-5 text-nowrap">
-            <a href="/" class="text-decoration-none text-black">MobiMart</a>
+          <div class="p-2 fs-5 text-nowrap">MobiMart</div>
+        </div>
+        <form action="/items" method="GET">
+          <div class="input-group d-none d-sm-flex p-2 px-3 align-items-center">
+            <input type="text" class="form-control w-50 fs-5" name="model" />
+            <select
+              name="filter"
+              id=""
+              class="form-select d-none d-md-block w-25 fs-5"
+            >
+              <option value="Apple">Apple</option>
+              <option value="Xiaomi">Xiaomi</option>
+              <option value="Samsung">Samsung</option>
+              <option value="OnePlus">One Plus</option>
+            </select>
+            <input
+              type="submit"
+              class="btn btn-warning fs-5 w-25"
+              value="Search"
+            />
           </div>
-        </div>
-        <div class="input-group d-none d-sm-flex p-2 px-3 align-items-center">
-          <input type="text" class="form-control w-50 fs-5" />
-          <select name="" id="" class="form-select d-none d-md-block w-25 fs-5">
-            <option value="">Apple</option>
-            <option value="">Xiaomi</option>
-            <option value="">Samsung</option>
-            <option value="">One Plus</option>
-          </select>
-          <div class="btn btn-warning fs-5 w-25">Search</div>
-        </div>
+        </form>
+
         <div class="d-flex align-items-center navbar navbar-expand">
           <div class="p-2 fs-5 navbar-brand">
             <i class="bi bi-bag"></i>
@@ -99,7 +108,7 @@
           <div class="p-2 fs-5 navbar-brand">
             <a
               href="/user/sign-up.html"
-              class="text-decoreation-none text-black"
+              class="text-decoration-none text-black"
             >
               <i class="bi bi-box-arrow-in-right"></i>
             </a>
@@ -107,59 +116,72 @@
         </div>
       </div>
       <div class="d-flex justify-content-center d-sm-none">
-        <div class="input-group w-100 px-2">
-          <input type="text" class="form-control" />
-          <div class="btn btn-warning fs-5">Search</div>
-        </div>
+        <form action="/items" class="input-group w-100 px-2">
+          <input type="text" class="form-control" name="model" />
+          <input type="text" value="all" name="filter" hidden />
+          <input type="submit" value="Search" class="btn btn-warning fs-5" />
+        </form>
       </div>
       <div class="navbar navbar-expand-sm">
         <div class="collapse navbar-collapse ps-4" id="menu">
           <ul class="navbar-nav flex-wrap column-gap-3">
             <li class="nav-item p-2 fs-5 dropdown">
-              <div class="dropdown-toggle" data-bs-toggle="dropdown">
-                Xiaomi
-              </div>
-              <div class="dropdown-menu fs-5 dropdown">
+              <a
+                href="/collection/item.html?name=Xiaomi"
+                class="text-decoration-none text-black"
+              >
+                <div>Xiaomi</div>
+              </a>
+              <!-- <div class="dropdown-menu fs-5 dropdown">
                 <div class="dropdown-item">Latest</div>
                 <div class="dropdown-item">Flagship</div>
                 <div class="dropdown-item">Mid-Range</div>
                 <div class="dropdown-item">Budget</div>
                 <div class="dropdown-item">Note Series</div>
                 <div class="dropdown-item">Price to performance</div>
-              </div>
+              </div> -->
             </li>
             <li class="nav-item p-2 fs-5 dropdown">
-              <div class="dropdown-toggle fs-5" data-bs-toggle="dropdown">
-                Apple
-              </div>
-              <div class="dropdown-menu fs-5">
+              <a
+                href="/collection/item.html?name=Apple"
+                class="text-decoration-none text-black"
+              >
+                <div>Apple</div>
+              </a>
+              <!-- <div class="dropdown-menu fs-5">
                 <div class="dropdown-item">Latest</div>
                 <div class="dropdown-item">Pink</div>
                 <div class="dropdown-item">Green</div>
                 <div class="dropdown-item">Black</div>
-              </div>
+              </div> -->
             </li>
             <li class="nav-item p-2 fs-5 dropdown">
-              <div class="dropdown-toggle" data-bs-toggle="dropdown">
-                Samsung
-              </div>
-              <div class="dropdown-menu fs-5">
+              <a
+                href="/collection/item.html?name=Samsung"
+                class="text-decoration-none text-black"
+              >
+                <div>Samsung</div>
+              </a>
+              <!-- <div class="dropdown-menu fs-5">
                 <div class="dropdown-item">Latest</div>
                 <div class="dropdown-item">Flagship</div>
                 <div class="dropdown-item">Mid-Range</div>
                 <div class="dropdown-item">Budget</div>
-              </div>
+              </div> -->
             </li>
             <li class="nav-item p-2 fs-5 dropdown">
-              <div class="dropdown-toggle" data-bs-toggle="dropdown">
-                One Plus
-              </div>
-              <div class="dropdown-menu fs-5">
+              <a
+                href="/collection/item.html?name=OnePlus"
+                class="text-decoration-none text-black"
+              >
+                <div>One Plus</div>
+              </a>
+              <!-- <div class="dropdown-menu fs-5">
                 <div class="dropdown-item">Latest</div>
                 <div class="dropdown-item">Flagship</div>
                 <div class="dropdown-item">Mid-Range</div>
                 <div class="dropdown-item">Budget</div>
-              </div>
+              </div> -->
             </li>
           </ul>
         </div>
