@@ -13,12 +13,12 @@
       "Colors": "Midnight Black, Mist Purple, Ocean Blue, Lime Green"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-4g-gl-1.jpg",
+      "main": "/collection/image/xiaomi/main/Redmi Note 14 4G/main.jpg",
       "view": [
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_002.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_007.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_008.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-4g/lifestyle/-1024w2/gsmarena_018.jpg"
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/1.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/2.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/3.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/4.jpg"
       ]
     }
   },
@@ -26,7 +26,7 @@
     "id": 2,
     "model": "Redmi Note 14 Pro 4G",
     "specifications": {
-      "Model": "Redmi Note 14 Pro 5G",
+      "Model": "Redmi Note 14 Pro 4G",
       "Display Type": "AMOLED, 1B colors, 120Hz, 1920Hz PWM, 1200 nits (HBM), 1800 nits (peak)",
       "Os": "Android 14, HyperOS",
       "Chipset": "Mediatek Helio G100 Ultra (6 nm)",
@@ -36,12 +36,12 @@
       "Colors": "Midnight Black, Aurora Purple, Ocean Blue"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-4g-gl-1.jpg",
+      "main": "/collection/image/xiaomi/main/Redmi Note 14 Pro 4G/main.jpg",
       "view": [
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_005.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_006.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_007.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/xiaomi-redmi-note-14-pro-4g/lifestyle/-1024w2/gsmarena_016.jpg"
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/1.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/2.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/3.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/4.jpg"
       ]
     }
   },
@@ -59,12 +59,12 @@
       "Colors": "Chrome Silver, Graphite Gray, Nighttime Blue, Aurora Green"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note10-5g-0.jpg",
+      "main": "/collection/image/xiaomi/main/Redmi Note 10 5G/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note10-5g-2.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/21/xiaomi-redmi-note-10-5g/lifestyle/-1024w2/gsmarena_001.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/21/xiaomi-redmi-note-10-5g/lifestyle/-1024w2/gsmarena_002.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/21/xiaomi-redmi-note-10-5g/lifestyle/-1024w2/gsmarena_007.jpg"
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/1.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/2.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/3.jpg",
+        "/collection/image/xiaomi/view/Redmi Note 14 4G/4.jpg"
       ]
     }
   },
@@ -82,12 +82,12 @@
       "Colors": "Black, Blue, Gold, Rose Gold, Red"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-a2-lite-1.jpg",
+      "main": "/collection/image/xiaomi/main/Mi A2 Lite/main.jpg",
       "view": [
-        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_001.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_015.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_013.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/18/xiaomi-mi-a2-lite/gal/-1024w2/gsmarena_011.jpg"
+        "/collection/image/xiaomi/view/Mi A2 Lite/1.jpg",
+        "/collection/image/xiaomi/view/Mi A2 Lite/2.jpg",
+        "/collection/image/xiaomi/view/Mi A2 Lite/3.jpg",
+        "/collection/image/xiaomi/view/Mi A2 Lite/4.jpg"
       ]
     }
   },
@@ -105,12 +105,12 @@
       "Colors": "Black, Red, Blue, White, Deep Sea Blue, Midnight Blue, Electric Blue, Twilight Orange"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-2.jpg",
+      "main": "/collection/image/xiaomi/main/Xiaomi Redmi Note 8 Pro/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-01.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-1.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-twilight-orange.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-0.jpg"
+        "/collection/image/xiaomi/view/Xiaomi Redmi Note 8 Pro/1.jpg",
+        "/collection/image/xiaomi/view/Xiaomi Redmi Note 8 Pro/2.jpg",
+        "/collection/image/xiaomi/view/Xiaomi Redmi Note 8 Pro/3.jpg",
+        "/collection/image/xiaomi/view/Xiaomi Redmi Note 8 Pro/4.jpg"
       ]
     }
   }

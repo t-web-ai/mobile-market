@@ -13,12 +13,12 @@
       "Colors": "Black Eclipse, Arctic Dawn, Midnight Ocean"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-1.jpg",
+      "main": "/collection/image/oneplus/main/OnePlus 13/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-2.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-3.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/oneplus-13/rev07/lifestyle/-1024w2/gsmarena_001.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/oneplus-13/rev07/lifestyle/-1024w2/gsmarena_005.jpg"
+        "/collection/image/oneplus/view/OnePlus 13/1.jpg",
+        "/collection/image/oneplus/view/OnePlus 13/2.jpg",
+        "/collection/image/oneplus/view/OnePlus 13/3.jpg",
+        "/collection/image/oneplus/view/OnePlus 13/4.jpg"
       ]
     }
   },
@@ -36,12 +36,12 @@
       "Colors": "Gunmetal, Soft Gold, Midnight Black"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-3.jpg",
+      "main": "/collection/image/oneplus/main/OnePlus 3T/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-midnight-black.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3-soft-gold.jpg",
-        "https://fdn.gsmarena.com/imgroot//reviews/16/oneplus-3t/gal/-1024x768w1/gsmarena_005.jpg",
-        "https://fdn.gsmarena.com/imgroot//reviews/16/oneplus-3t/gal/-1024x768w1/gsmarena_010.jpg"
+        "/collection/image/oneplus/view/OnePlus 3T/1.jpg",
+        "/collection/image/oneplus/view/OnePlus 3T/2.jpg",
+        "/collection/image/oneplus/view/OnePlus 3T/3.jpg",
+        "/collection/image/oneplus/view/OnePlus 3T/4.jpg"
       ]
     }
   },
@@ -59,12 +59,12 @@
       "Colors": "Black, Gray, Pink"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13t-4.jpg",
+      "main": "/collection/image/oneplus/main/OnePlus 13T/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13t-5.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13t-4.jpg",
-        "https://cdn1.smartprix.com/rx-i77dPhRti-w1200-h1200/oneplus-13t.webp",
-        "https://cdn1.smartprix.com/rx-ik5U007vl-w1200-h1200/oneplus-13t.webp"
+        "/collection/image/oneplus/view/OnePlus 13T/1.jpg",
+        "/collection/image/oneplus/view/OnePlus 13T/2.jpg",
+        "/collection/image/oneplus/view/OnePlus 13T/3.webp",
+        "/collection/image/oneplus/view/OnePlus 13T/4.webp"
       ]
     }
   },
@@ -82,12 +82,12 @@
       "Colors": "Moonstone Black, Jade Green"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10t-5g-1.jpg",
+      "main": "/collection/image/oneplus/main/OnePlus 10T/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10t-5g-2.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/22/oneplus-10t/lifestyle/-1024w2/gsmarena_002.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/22/oneplus-10t/lifestyle/-1024w2/gsmarena_005.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/22/oneplus-10t/lifestyle/-1024w2/gsmarena_012.jpg"
+        "/collection/image/oneplus/view/OnePlus 10T/1.jpg",
+        "/collection/image/oneplus/view/OnePlus 10T/2.jpg",
+        "/collection/image/oneplus/view/OnePlus 10T/3.jpg",
+        "/collection/image/oneplus/view/OnePlus 10T/4.jpg"
       ]
     }
   },
@@ -105,12 +105,12 @@
       "Colors": "Obsidian Midnight, Mercurial Silver, Oasis Green"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord4-1.jpg",
+      "main": "/collection/image/oneplus/main/OnePlus Nord 4/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord4-2.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord4-3.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/24/oneplus-nord-4/lifestyle/-1024w2/gsmarena_003.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/24/oneplus-nord-4/lifestyle/-1024w2/gsmarena_004.jpg"
+        "/collection/image/oneplus/view/OnePlus Nord 4/1.jpg",
+        "/collection/image/oneplus/view/OnePlus Nord 4/2.jpg",
+        "/collection/image/oneplus/view/OnePlus Nord 4/3.jpg",
+        "/collection/image/oneplus/view/OnePlus Nord 4/4.jpg"
       ]
     }
   }

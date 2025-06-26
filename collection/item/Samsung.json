@@ -13,12 +13,12 @@
       "Colors": "Pink, Olive, Graphite, Lightgray"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a56-1.jpg",
+      "main": "/collection/image/samsung/main/Samsung Galaxy A56/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a56-2.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-a56/lifestyle/-1024w2/gsmarena_005.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-a56/lifestyle/-1024w2/gsmarena_015.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-a56/lifestyle/-1024w2/gsmarena_019.jpg"
+        "/collection/image/samsung/view/Samsung Galaxy A56/1.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy A56/2.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy A56/3.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy A56/4.jpg"
       ]
     }
   },
@@ -36,12 +36,12 @@
       "Colors": "Mint, Cream, Graphite, Purple, Indigo, Tangerine"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-1.jpg",
+      "main": "/collection/image/samsung/main/Samsung Galaxy S23 FE/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-2.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-3.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/23/samsung-galaxy-s23-fe/lifestyle/-1024w2/gsmarena_004.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/23/samsung-galaxy-s23-fe/lifestyle/-1024w2/gsmarena_015.jpg"
+        "/collection/image/samsung/view/Samsung Galaxy S23 FE/1.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S23 FE/2.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S23 FE/3.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S23 FE/4.jpg"
       ]
     }
   },
@@ -59,12 +59,12 @@
       "Colors": "Titanium Icyblue, Titanium Silver, Titanium Jetblack"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-edge-1.jpg",
+      "main": "/collection/image/samsung/main/Samsung Galaxy S25 Edge/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-edge-2.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-edge/lifestyle/-1024w2/gsmarena_002.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-edge/lifestyle/-1024w2/gsmarena_003.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-edge/lifestyle/-1024w2/gsmarena_021.jpg"
+        "/collection/image/samsung/view/Samsung Galaxy S25 Edge/1.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S25 Edge/2.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S25 Edge/3.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S25 Edge/4.jpg"
       ]
     }
   },
@@ -82,12 +82,12 @@
       "Colors": "Titanium Silver Blue, Titanium Black, Titanium White Silver, Titanium Gray, Titanium Jade Green, Titanium Jet Black, Titanium Pink Gold"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg",
+      "main": "/collection/image/samsung/main/Samsung Galaxy S25 Ultra/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-2.jpg",
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-3.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-ultra/lifestyle/-1024w2/gsmarena_003.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/25/samsung-galaxy-s25-ultra/lifestyle/-1024w2/gsmarena_004.jpg"
+        "/collection/image/samsung/view/Samsung Galaxy S25 Ultra/1.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S25 Ultra/2.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S25 Ultra/3.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy S25 Ultra/4.jpg"
       ]
     }
   },
@@ -105,12 +105,12 @@
       "Colors": "Iceblue, Lilac, Navy, Lemon"
     },
     "image": {
-      "main": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a35-1.jpg",
+      "main": "/collection/image/samsung/main/Samsung Galaxy A35/main.jpg",
       "view": [
-        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a35-2.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-a35/lifestyle/-1024w2/gsmarena_001.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-a35/lifestyle/-1024w2/gsmarena_003.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-a35/lifestyle/-1024w2/gsmarena_005.jpg"
+        "/collection/image/samsung/view/Samsung Galaxy A35/1.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy A35/2.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy A35/3.jpg",
+        "/collection/image/samsung/view/Samsung Galaxy A35/4.jpg"
       ]
     }
   }

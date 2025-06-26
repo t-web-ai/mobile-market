@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Xiaomi",
     "brand": "Xiaomi",
-    "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-5g-gl-1.jpg"
+    "image": "/collection/image/xiaomi/cover/cover.jpg"
   },
   {
     "id": 2,
     "name": "Apple",
     "brand": "Apple",
-    "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-r1.jpg"
+    "image": "/collection/image/apple/cover/cover.jpg"
   },
   {
     "id": 3,
     "name": "Samsung",
     "brand": "Samsung",
-    "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg"
+    "image": "/collection/image/samsung/cover/cover.jpg"
   },
   {
     "id": 4,
     "name": "OnePlus",
     "brand": "One Plus",
-    "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-3t-3.jpg"
+    "image": "/collection/image/oneplus/cover/cover.jpg"
   }
 ]
