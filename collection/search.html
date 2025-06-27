@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Item</title>
+    <title>Search</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <style>
       .image {
@@ -181,7 +181,6 @@
       </div>
     </div>
     <!-- menu bar - end -->
-
     <!-- items - start -->
     <div class="container-fluid">
       <div class="row" id="item">
@@ -197,7 +196,6 @@
       </div>
     </div>
     <!-- items - end -->
-
     <!-- footer - start -->
     <div class="list-group fw-bold p-2" id="parent">
       <div class="list-group-item">
@@ -326,72 +324,110 @@
     <script>
       $(document).ready(function () {
         const searchQuery = new URLSearchParams(window.location.search);
-        setTimeout(function () {
-          $.get("/collection/item.json", function (items) {
-            const item = items.find((item) => {
-              return item.name == searchQuery.get("name");
-            });
-            $("title").text(searchQuery.get("name"));
+        if (searchQuery.size > 0) {
+          if (searchQuery.get("filter") == "all") {
             $("#item").html("");
-            if (!item) {
-              $("#item").append(`
-              <div class="col-12 p-2">
-                <div class="card py-5">
-                  <div class="card-body">
-                    <h2 class="text-center">
-                      No Items!
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              `);
-              return;
-            }
-            $.get(
-              `/collection/item/${searchQuery.get("name")}.json`,
-              (items) => {
-                items.map((item) => {
-                  $("#item").append(`
-                  <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
-                      <div class="card">
-                      <div class="card-body">
-                        <div class="card-title ">
-                          <div class="fs-5 fw-bold bg-light rounded p-2 text-center text-truncate ">
-                            ${item.model}
-                          </div>
-                          <div class="text-center my-4 image">
-                            <img
-                              src="${item.image.main}"
-                              alt=""
-                            />
-                          </div>
-                          <div class="row pe-3">
-                            <a
-                              href="/collection/details.html?name=${searchQuery.get(
-                                "name"
-                              )}&model-id=${item.id}"
-                              class="text-decoration-none text-black col-8"
-                            >
-                              <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
-                                Details
+            $.get("/collection/item.json", function (items) {
+              items.map((item) => {
+                $.get(`/collection/item/${item.name}.json`, function (devices) {
+                  devices.map((device) => {
+                    if (
+                      device.model
+                        .toLowerCase()
+                        .includes(searchQuery.get("model").toLowerCase())
+                    ) {
+                      $("#item").append(`
+                      <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+                          <div class="card">
+                          <div class="card-body">
+                            <div class="card-title ">
+                              <div class="fs-5 fw-bold bg-light rounded p-2 text-center text-truncate ">
+                                ${device.model}
                               </div>
-                            </a>
-                            <div class="col-4 bg-dark text-center rounded text-white d-flex justify-content-center align-items-center">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                              </svg>
+                              <div class="text-center my-4 image">
+                                <img
+                                  src="${device.image.main}"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="row pe-3">
+                                <a
+                                  href="/collection/details.html?name=${item.name}&model-id=${device.id}"
+                                  class="text-decoration-none text-black col-8"
+                                >
+                                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                                    Details
+                                  </div>
+                                </a>
+                                <div class="col-4 bg-dark text-center rounded text-white d-flex justify-content-center align-items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                  </svg>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
                   `);
+                    }
+                  });
+                });
+              });
+            });
+          } else {
+            $("#item").html("");
+            $.get(
+              `/collection/item/${searchQuery.get("filter")}.json`,
+              function (devices) {
+                devices.map((device) => {
+                  if (
+                    device.model
+                      .toLowerCase()
+                      .includes(searchQuery.get("model").toLowerCase())
+                  ) {
+                    $("#item").append(`
+                    
+                    <div class="p-2 col-12 col-sm-6 col-md-4 col-lg-3">
+                          <div class="card">
+                          <div class="card-body">
+                            <div class="card-title ">
+                              <div class="fs-5 fw-bold bg-light rounded p-2 text-center text-truncate ">
+                                ${device.model}
+                              </div>
+                              <div class="text-center my-4 image">
+                                <img
+                                  src="${device.image.main}"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="row pe-3">
+                                <a
+                                  href="/collection/details.html?name=${searchQuery.get(
+                                    "filter"
+                                  )}&model-id=${device.id}"
+                                  class="text-decoration-none text-black col-8"
+                                >
+                                  <div class="bg-warning fs-5 text-center rounded p-2 fw-bold">
+                                    Details
+                                  </div>
+                                </a>
+                                <div class="col-4 bg-dark text-center rounded text-white d-flex justify-content-center align-items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                  </svg>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>`);
+                  }
                 });
               }
             );
-          });
-        }, 500);
+          }
+        }
       });
     </script>
   </body>

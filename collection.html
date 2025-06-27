@@ -45,7 +45,7 @@
             <div class="p-2 fs-5 text-nowrap ps-sm-4">MobiMart</div>
           </a>
         </div>
-        <form action="/items" method="GET">
+        <form action="/collection/search.html" method="GET">
           <div class="input-group d-none d-sm-flex p-2 px-3 align-items-center">
             <input type="text" class="form-control w-50 fs-5" name="model" />
             <select
@@ -53,6 +53,7 @@
               id=""
               class="form-select d-none d-md-block w-25 fs-5"
             >
+              <option value="all">All</option>
               <option value="Apple">Apple</option>
               <option value="Xiaomi">Xiaomi</option>
               <option value="Samsung">Samsung</option>
@@ -108,7 +109,7 @@
         </div>
       </div>
       <div class="d-flex justify-content-center d-sm-none">
-        <form action="/items" class="input-group w-100 px-2">
+        <form action="/collection/search.html" class="input-group w-100 px-2">
           <input type="text" class="form-control" name="model" />
           <input type="text" value="all" name="filter" hidden />
           <input type="submit" value="Search" class="btn btn-warning fs-5" />
